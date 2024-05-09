@@ -5,6 +5,9 @@ from company.models import Company
 class JobHunter(models.Model):
     name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.name
+
 class Job(models.Model):
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=255, blank=True)
@@ -12,3 +15,6 @@ class Job(models.Model):
     company = models.ForeignKey(Company, on_delete=models.CASCADE)
     date_offer = models.DateField()
     date_expired = models.DateField(null=True, blank=True)
+
+    def __str__(self):
+        return self.name
