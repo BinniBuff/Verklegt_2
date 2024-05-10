@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
 
@@ -26,6 +27,7 @@ def get_job_by_id(request, id):
         'job': get_object_or_404(Job, pk=id)
     })
 
+@login_required
 def create_job(request):
     if request.method == 'POST':
         form = JobForm(data=request.POST)
@@ -38,11 +40,13 @@ def create_job(request):
         'form': form
     })
 
+@login_required
 def delete_job(request, id):
     job = get_object_or_404(Job, pk=id)
     job.delete()
     return redirect('job-index')
 
+@login_required
 def update_job(request, id):
     instance = get_object_or_404(Job, pk=id)
     if request.method == 'POST':
