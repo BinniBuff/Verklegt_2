@@ -1,4 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
-	<h2>Welcome to the jeb pal</h2>
+	<h1>Companies</h1>
+    <div class="companies">
+        {% for company in companies %}
+            {% include "company/single_company.html" with company=company %}
+        {% endfor %}
+        
+    </div>
 {% endblock %}
