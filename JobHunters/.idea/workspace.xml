@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855c4ac9-7d1c-4835-a46c-7aa06aa0e7b8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/job/create_job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/job/job_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/job/update_job.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,7 @@
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "dart.analysis.tool.window.visible": "false",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Buffi",
+    "git-widget-placeholder": "#11 on Buffi",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -120,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715330884913</updated>
       <workItem from="1715330885949" duration="2855000" />
-      <workItem from="1715334570504" duration="725000" />
+      <workItem from="1715334570504" duration="1606000" />
     </task>
     <servers />
   </component>

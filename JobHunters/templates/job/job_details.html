@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{{ job.name }}</h1>
+    <h4>{{ job.company.name }}</h4>
+    <p>{{ job.description }}</p>
+    <p>Job offer expires:{{ job.date_expired }}</p>
+
+    <a href="{% url 'delete-job' job.id %}" class="block btn btn-primary">Delete job offer</a>
+    <a href="{% url 'update-job' job.id %}" class="block btn btn-primary">Update job offer</a>
+{% endblock %}

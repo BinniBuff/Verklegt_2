@@ -1,4 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-	<h2>Welcome to the jeb pal</h2>
+<h1 class="welcome">Welcome to the jeb pal</h1>
+<div class="input-group">
+    <input type="search" class="form-control" id="search-box" placeholder="Enter your search here.." />
+    <div class="input-group-btm">
+        <button type="button" id="search-btn" class="btn btn-default">Search</button>
+    </div>
+</div>
+<div class="job">
+    {% for job in jobs %}
+        {% include 'job/single_job.html' with job=job %}
+    {% endfor %}
+</div>
+
 {% endblock %}
