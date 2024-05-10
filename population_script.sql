@@ -1,7 +1,0 @@
-INSERT INTO job_job (name, description, category, company, date_offer, date_expired) VALUES('Læknir', 'Ungbarnalæknir á göngudeild', 1, 09-05-2024, 10-06-2024);
-INSERT INTO job_job (name, description, category, company, date_offer, date_expired) VALUES('Forritari', 'Framendaforritun, vefsíðugerð fyrir fyrirtæki', 2, 10-05-2024, 30-05-2024);
-INSERT INTO job_job (name, description, category, company, date_offer, date_expired) VALUES('Bifvélavirki', 'Bifvélavirki óskast fyrir stærri bíla', 3, 09-05-2024, 10-06-2024);
-
-INSERT INTO company_company (name, year_of_start, logo) VALUES('LSH', 23-01-2001, https://www.google.com/url?sa=i&url=https%3A%2F%2Fis.wikipedia.org%2Fwiki%2FLandsp%25C3%25ADtali&psig=AOvVaw2RAqn07lVRIVleFABbhB95&ust=1715215595099000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLD61pPq_IUDFQAAAAAdAAAAABAE);
-INSERT INTO company_company (name, year_of_start, logo) VALUES('Advania', 26-09-2014, https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAdvania&psig=AOvVaw1twPjCf5w1Z2SS4267vQgP&ust=1715215814275000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJDFxvzq_IUDFQAAAAAdAAAAABAE);
-INSERT INTO company_company (name, year_of_start, logo) VALUES('Hekla', 23-04-1996, https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hekla.is%2Fis%2Fbilar%2Fnotadir-bilar&psig=AOvVaw2aX8tQzc9RK1H2NknfdTlF&ust=1715215848499000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJiC0ZLr_IUDFQAAAAAdAAAAABAJ);
