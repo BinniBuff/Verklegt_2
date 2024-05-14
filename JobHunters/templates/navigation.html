@@ -5,18 +5,33 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li>
-          <a href="{% url 'job-index' %}">Jobs</a>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-2">
+            <form method="post" action="{% url 'job-index' %}" class="me-2">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item">Jobs</button>
+            </form>
         </li>
-        <li>
-          <a href="{% url 'company-index' %}">Companies</a>
+        <li class="nav-item me-2">
+            <form method="post" action="{% url 'company-index' %}" class="me-2">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item">Companies</button>
+            </form>
         </li>
         {% if user.is_authenticated %}
-            <li><a href="{% url 'logout' %}">Logout</a></li>
+            <form method="post" action="{% url 'logout' %}">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item">Log out</button>
+            </form>
         {% else %}
-            <a href="{% url 'login' %}">Login</a>
-            <a href="{% url 'register' %}">Register</a>
+            <form method="post" action="{% url 'login' %}" class="me-2">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item">Login</button>
+            </form>
+            <form method="post" action="{% url 'register' %}" class="me-2">
+                {% csrf_token %}
+                <button type="submit" class="dropdown-item">Register</button>
+            </form>
         {% endif %}
       </ul>
     </div>

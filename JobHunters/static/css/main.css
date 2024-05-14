@@ -1,3 +1,32 @@
 .job {
     border-bottom: solid 2px rgba(155, 155, 155, .5);
 }
+
+#main_base {
+    background-color: rgb(208, 234, 251);
+}
+
+#single_job_div {
+    border: solid 3px rgb(126, 170, 199);
+    margin: 20px;
+    background-color: white;
+}
+
+#link_to_job {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar {
+    background-color: rgb(63, 123, 162);
+    position: sticky;
+    width: 20%;
+    height: 100%;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    padding: 0;
+}
