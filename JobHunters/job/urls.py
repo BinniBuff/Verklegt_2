@@ -10,4 +10,3 @@ urlpatterns = [
     path('update_job/<int:id>', views.update_job, name='update-job'),
 ]
 
-
