@@ -12,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/sidebar.html" beforeDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,42 +33,40 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="Buffi" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BinniBuff&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lexicilia"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BinniBuff/Verklegt_2.git&quot;,
-    &quot;accountId&quot;: &quot;026b707d-a79e-4fc2-9949-6bfa722f0c04&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BinniBuff/Verklegt_2.git",
+    "accountId": "013af5c2-7ed6-436c-a259-916c8df870b9"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2gGjcAu2GCTAJeio3TZMwnbQSCr" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2gPlsRC7f2LsgEsxaQuLCAqmXqf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
     "Django Server.JobHunters.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "#11 on Buffi",
-    "list.type.of.created.stylesheet": "CSS",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "lexibranch1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,20 +119,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="855c4ac9-7d1c-4835-a46c-7aa06aa0e7b8" name="Changes" comment="" />
-      <created>1715330884913</created>
+      <changelist id="f8816e3d-b6c2-4f9c-b63f-355c6395d24a" name="Changes" comment="" />
+      <created>1715607299812</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715330884913</updated>
-      <workItem from="1715330885949" duration="2855000" />
-      <workItem from="1715334570504" duration="1606000" />
+      <updated>1715607299812</updated>
+      <workItem from="1715607301184" duration="5960000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
