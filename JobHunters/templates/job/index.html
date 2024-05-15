@@ -1,15 +1,23 @@
 {% extends 'base.html' %}
+{% block sidebar %}
+    <div class="selector-filter">
+        <h2>Testing</h2>
+    </div>
+{% endblock %}
 {% block content %}
 <h1 class="welcome">Welcome to the jeb pal</h1>
-<div class="input-group">
-    <input type="search" class="form-control" id="search-box" placeholder="Enter your search here.." />
-    <div class="input-group-btm">
-        <button type="button" id="search-btn" class="btn btn-default">Search</button>
-    </div>
+<div class="input-group mb-3">
+    <form class="d-flex" method="get" action="{% url 'job-index' %}">
+        <input type="search" class="form-control" name="search_filter" id="search-box" placeholder="Enter your search here.." aria-label="Job Search">
+        <button type="submit" id="search-btn" class="btn btn-secondary">Search</button>
+    </form>
 </div>
-<div class="job">
+<br/>
+<div class="row justify-content-center">
     {% for job in jobs %}
+    <div class="col-md-5" id="single_job_div">
         {% include 'job/single_job.html' with job=job %}
+    </div>
     {% endfor %}
 </div>
 
