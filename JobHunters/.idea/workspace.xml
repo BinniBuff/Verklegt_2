@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855c4ac9-7d1c-4835-a46c-7aa06aa0e7b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/company/migrations/0005_alter_company_logo_delete_companyimage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job/migrations/0003_job_full_part_time_job_location.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/sidebar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/job/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sidebar.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

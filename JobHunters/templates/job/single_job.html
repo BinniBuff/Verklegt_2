@@ -8,8 +8,19 @@
                 <p><b>{{ job.full_part_time }}</b></p>
             </div>
         </div>
-        <p><b>{{ job.company.name }}</b></p>
-        <p>{{ job.name }}</p>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <p><b>{{ job.company.name }}</b></p>
+                </div>
+                <div class="row">
+                    <p>{{ job.name }}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="{{ job.company.logo }}" alt="Logo of the company">
+            </div>
+        </div>
         <p>Job offer expires: {{ job.date_expired }}</p>
     </a>
 </div>
