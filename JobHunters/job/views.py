@@ -1,26 +1,36 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
+from django.db.models import Q
 
-import job
 from job.forms.job_form import JobForm, JobUpdateForm
-from job.models import Job
+from job.models import Job, Category
 
 
 # Create your views here.
 def index(request):
     if 'search_filter' in request.GET:
         search_filter = request.GET['search_filter']
-        jobs =[ {
+        jobs = Job.objects.filter(
+            Q(name__icontains=search_filter) |
+            Q(company__name__icontains=search_filter) |
+            Q(category__name__icontains=search_filter)
+        ).distinct().order_by('date_offer')
+        job_data = [{
             'id': x.id,
             'name': x.name,
             'description': x.description,
-            'firstImage': ''
-        } for x in Job.objects.filter(name__icontains=search_filter)]
-        return JsonResponse({'data': jobs})
-    return render(request, 'job/index.html', {
-        'jobs': Job.objects.all().order_by('date_offer')
-    })
+            'category': x.category.name,
+            'company': x.company.name,
+            'full_part_time': x.full_part_time,
+            'expires': x.date_expired.strftime('%Y-%m-%d'),
+            'logo': x.company.logo.url if x.company.logo else None
+        } for x in jobs]
+        return JsonResponse({'data': job_data})
+    else:
+        return render(request, 'job/index.html', {
+            'jobs': Job.objects.all().order_by('date_offer')
+        })
 
 def get_job_by_id(request, id):
     return render(request, 'job/job_details.html', {
