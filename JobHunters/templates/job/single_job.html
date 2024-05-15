@@ -1,7 +1,26 @@
 <div class="well-job">
-    <a href="/jobs/{{ job.id }}">
-        <h4>{{ job.name }}</h4>
-        <p>{{ job.date_expired }}</p>
-        <p>{{ job.company.name }}</p>
+    <a href="/jobs/{{ job.id }}" id="link_to_job">
+        <div class="row">
+            <div class="col-md-4">
+                <p>{{ job.category }}</p>
+            </div>
+            <div class="col-md-8 text-end">
+                <p><b>{{ job.full_part_time }}</b></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <p><b>{{ job.company.name }}</b></p>
+                </div>
+                <div class="row">
+                    <p>{{ job.name }}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="{{ job.company.logo }}" alt="Logo of the company">
+            </div>
+        </div>
+        <p>Job offer expires: {{ job.date_expired }}</p>
     </a>
 </div>

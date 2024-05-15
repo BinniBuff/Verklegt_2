@@ -25,7 +25,3 @@ urlpatterns = [
     path('user/', include('user.urls')),
     path('companies', include('company.urls')),
 ]
-
-
-LOGIN_URL = '/user/login'
-LOGIN_REDIRECT_URL = '/user/profile'
