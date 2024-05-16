@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="855c4ac9-7d1c-4835-a46c-7aa06aa0e7b8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job/create_job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job/job_details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job/update_job.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JobHunters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JobHunters.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f176e59f-6893-4d26-9aa3-28933c03b9b0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f176e59f-6893-4d26-9aa3-28933c03b9b0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f2acf549-258b-4cc4-b3a9-4d103623e4f4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f2acf549-258b-4cc4-b3a9-4d103623e4f4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,31 +58,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.JobHunters.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "#11 on Buffi",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.JobHunters.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Nani&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="JobHunters" type="Python.DjangoServer" factoryName="Django server">
       <module name="JobHunters" />
@@ -96,7 +95,7 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -129,6 +128,9 @@
       <updated>1715330884913</updated>
       <workItem from="1715330885949" duration="2855000" />
       <workItem from="1715334570504" duration="1606000" />
+      <workItem from="1715817123325" duration="1485000" />
+      <workItem from="1715818649741" duration="593000" />
+      <workItem from="1715819998636" duration="1100000" />
     </task>
     <servers />
   </component>
