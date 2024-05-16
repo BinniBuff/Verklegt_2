@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 {% block content %}
 	<h1>Companies</h1>
+    <div class="input-group">
+    <input type="search" class="form-control" id="search-box" placeholder="Enter your search here.." />
+    <div class="input-group-btm">
+        <button type="button" id="search-btn" class="btn btn-default">Search</button>
+    </div>
+    </div>
     <div class="companies">
         {% for company in companies %}
             {% include "company/single_company.html" with company=company %}
