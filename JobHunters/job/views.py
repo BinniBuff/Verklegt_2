@@ -5,32 +5,37 @@ from django.db.models import Q
 
 from job.forms.job_form import JobForm, JobUpdateForm
 from job.models import Job, Category
+from company.models import Company
 
 
 # Create your views here.
 def index(request):
-    if 'search_filter' in request.GET:
-        search_filter = request.GET['search_filter']
-        jobs = Job.objects.filter(
+    jobs = Job.objects.all()
+
+    search_filter = request.GET.get('search_filter')
+    if search_filter:
+        jobs = jobs.filter(
             Q(name__icontains=search_filter) |
             Q(company__name__icontains=search_filter) |
             Q(category__name__icontains=search_filter)
-        ).distinct().order_by('date_offer')
-        job_data = [{
-            'id': x.id,
-            'name': x.name,
-            'description': x.description,
-            'category': x.category.name,
-            'company': x.company.name,
-            'full_part_time': x.full_part_time,
-            'expires': x.date_expired.strftime('%Y-%m-%d'),
-            'logo': x.company.logo.url if x.company.logo else None
-        } for x in jobs]
-        return JsonResponse({'data': job_data})
-    else:
-        return render(request, 'job/index.html', {
-            'jobs': Job.objects.all().order_by('date_offer')
-        })
+        ).distinct()
+
+    category_ids = request.GET.getlist('category_ids')
+    company_ids = request.GET.getlist('company_ids')
+    if category_ids:
+        jobs = jobs.filter(category__id__in=category_ids)
+    if company_ids:
+        jobs = jobs.filter(company__id__in=company_ids)
+
+    order_by = request.GET.get('order_by', 'date_offer')  # Default ordering by date offered
+    jobs = jobs.order_by(order_by)
+
+    context = {
+        'jobs': jobs,
+        'categories': Category.objects.all(),
+        'companies': Company.objects.all()
+    }
+    return render(request, 'job/index.html', context)
 
 def get_job_by_id(request, id):
     return render(request, 'job/job_details.html', {

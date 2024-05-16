@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/company/migrations/0006_company_cover_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/job/migrations/0004_rename_jobhunter_category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/job/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/job/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/job/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/job/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jobs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
     </list>
@@ -113,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715782553731</updated>
-      <workItem from="1715782555107" duration="7922000" />
+      <workItem from="1715782555107" duration="17288000" />
     </task>
     <servers />
   </component>
