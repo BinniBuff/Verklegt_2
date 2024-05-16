@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="79b00f30-131a-4f41-a460-9c0ab318f549" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false"
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "lexibranch1",
-    "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -87,6 +82,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

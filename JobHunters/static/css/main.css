@@ -61,6 +61,7 @@
     border-radius: unset;
     margin: unset;
     border: unset;
+    z-index: 100;
 }
 
 #search-btn {
@@ -76,4 +77,19 @@
 
 .navbar-nav {
     color: white;
+}
+
+.modal-content {
+    background-color: #f8f9fa; /* Light background for the modal */
+}
+.form-check-input {
+    margin-top: 0.3em; /* Adjust spacing for checkboxes */
+}
+
+.modal-backdrop.show {
+    z-index: 1060;  /* Ensures modal backdrop is just below the modal itself */
+}
+
+.modal {
+    z-index: 1080;  /* Ensures modal is above everything else when active */
 }
