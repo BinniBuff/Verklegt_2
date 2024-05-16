@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="79b00f30-131a-4f41-a460-9c0ab318f549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/media/media/hekla-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/company/add_company.html" afterDir="false" />
+    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false"
-=======
-      <change beforePath="$PROJECT_DIR$/JobHunters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/Advania_Ísland_ehf_-_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Advania_Ísland_ehf_-_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/forms/company_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/forms/company_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/hekla-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/hekla-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/logo-lsh.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo-lsh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/company_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/company_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/single_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/update_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/update_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
->>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +21,19 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;lexicilia&quot;
+    &quot;assignee&quot;: &quot;BinniBuff&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/BinniBuff/Verklegt_2.git&quot;,
-    &quot;accountId&quot;: &quot;013af5c2-7ed6-436c-a259-916c8df870b9&quot;
+    &quot;accountId&quot;: &quot;026b707d-a79e-4fc2-9949-6bfa722f0c04&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2gVIn2JyK3rMUVgdoXaOYMMGcHX" />
+  <component name="ProjectId" id="2gVV68AiKtPp5bZEiaO5Yqd7JbW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -64,34 +41,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-<<<<<<< Updated upstream
-=======
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "lexibranch1",
-    "last_opened_file_path": "C:/Users/legof/Desktop/Vefforritun/Verkefni4/Verklegt_2/JobHunters/media/media",
-    "node.js.detected.package.eslint": "true",
->>>>>>> Stashed changes
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Django Server.JobHunters.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Nani&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\media\media" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\media" />
-      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters" />
-      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\.venv" />
-    </key>
+}</component>
+  <component name="RunManager">
+    <configuration name="JobHunters" type="Python.DjangoServer" factoryName="Django server">
+      <module name="JobHunters" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="JobHunters.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -104,14 +97,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79b00f30-131a-4f41-a460-9c0ab318f549" name="Changes" comment="" />
-      <created>1715776483502</created>
+      <changelist id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="" />
+      <created>1715782553731</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715776483502</updated>
-      <workItem from="1715776485595" duration="922000" />
-      <workItem from="1715787713372" duration="2140000" />
-      <workItem from="1715861547138" duration="821000" />
+      <updated>1715782553731</updated>
+      <workItem from="1715782555107" duration="17288000" />
+      <workItem from="1715880643085" duration="906000" />
+      <workItem from="1715881636737" duration="580000" />
     </task>
     <servers />
   </component>
@@ -119,7 +112,6 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
