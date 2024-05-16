@@ -6,15 +6,37 @@
   <component name="ChangeListManager">
 
     <list default="true" id="79b00f30-131a-4f41-a460-9c0ab318f549" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/hekla-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/company/add_company.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false"
+=======
+      <change beforePath="$PROJECT_DIR$/JobHunters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/Advania_Ísland_ehf_-_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Advania_Ísland_ehf_-_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/forms/company_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/forms/company_form.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/hekla-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/hekla-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/logo-lsh.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo-lsh.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/company_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/company_details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/single_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/company/update_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/update_company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,15 +66,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< Updated upstream
+=======
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "lexibranch1",
+    "last_opened_file_path": "C:/Users/legof/Desktop/Vefforritun/Verkefni4/Verklegt_2/JobHunters/media/media",
+    "node.js.detected.package.eslint": "true",
+>>>>>>> Stashed changes
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\media\media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\media" />
       <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters" />
       <recent name="C:\Users\legof\Desktop\Vefforritun\Verkefni4\Verklegt_2\JobHunters\.venv" />
     </key>
@@ -75,6 +111,7 @@
       <updated>1715776483502</updated>
       <workItem from="1715776485595" duration="922000" />
       <workItem from="1715787713372" duration="2140000" />
+      <workItem from="1715861547138" duration="821000" />
     </task>
     <servers />
   </component>

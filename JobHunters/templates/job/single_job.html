@@ -15,10 +15,11 @@
                 </div>
                 <div class="row">
                     <p>{{ job.name }}</p>
+                    <p> {{ job.company.picture.url }}</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="{{ job.company.logo }}" alt="Logo of the company">
+                <img src="{{ job.company.picture.url }}" alt="Logo of the company">
             </div>
         </div>
         <p>Job offer expires: {{ job.date_expired }}</p>
