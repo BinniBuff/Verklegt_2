@@ -26,6 +26,9 @@
                             <a class="nav-link" href="{% url 'profile' %}">Profile</a>
                         </li>
                         <li class="nav-item me-2">
+                            <a class="nav-link" href="{% url 'user_applications' %}">My Applications</a>
+                        </li>
+                        <li class="nav-item me-2">
                             <form method="post" action="{% url 'logout' %}" class="d-inline">
                                 {% csrf_token %}
                                 <button type="submit" class="nav-link btn btn-link" style="padding: 0; border: none; background: none;">Log out</button>
@@ -54,3 +57,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
