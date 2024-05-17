@@ -1,39 +1,56 @@
-<nav class="navbar navbar-expand-lg" id="navigation">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="/">Hire Horizon</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item me-2">
-            <form method="post" action="{% url 'job-index' %}" class="me-2">
-                {% csrf_token %}
-                <button type="submit" class="dropdown-item">Jobs</button>
-            </form>
-        </li>
-        <li class="nav-item me-2">
-            <form method="post" action="{% url 'company-index' %}" class="me-2">
-                {% csrf_token %}
-                <button type="submit" class="dropdown-item">Companies</button>
-            </form>
-        </li>
-        {% if user.is_authenticated %}
-            <form method="post" action="{% url 'logout' %}">
-                {% csrf_token %}
-                <button type="submit" class="dropdown-item">Log out</button>
-            </form>
-        {% else %}
-            <form method="post" action="{% url 'login' %}" class="me-2">
-                {% csrf_token %}
-                <button type="submit" class="dropdown-item">Login</button>
-            </form>
-            <form method="post" action="{% url 'register' %}" class="me-2">
-                {% csrf_token %}
-                <button type="submit" class="dropdown-item">Register</button>
-            </form>
-        {% endif %}
-      </ul>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hire Horizon</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Hire Horizon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="{% url 'job-index' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="{% url 'company-index' %}">Companies</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <form method="post" action="{% url 'logout' %}" class="d-inline">
+                                {% csrf_token %}
+                                <button type="submit" class="nav-link btn btn-link" style="padding: 0; border: none; background: none;">Log out</button>
+                            </form>
+                        </li>
+                    {% else %}
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="{% url 'login' %}">Login</a>
+                        </li>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="{% url 'register' %}">Register</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block content %}
+        {% endblock %}
     </div>
-  </div>
-</nav>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</body>
+</html>
