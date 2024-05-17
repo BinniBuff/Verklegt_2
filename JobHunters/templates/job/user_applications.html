@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>{{ request.user.username }}'s Job Applications</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Job Title</th>
+            <th>Company</th>
+            <th>Status</th>
+            <th>Applied At</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for application in applications %}
+        <tr>
+            <td>{{ application.job.title }}</td>
+            <td>{{ application.job.company.name }}</td>
+            <td>{{ application.get_status_display }}</td>
+            <td>{{ application.applied_at }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
