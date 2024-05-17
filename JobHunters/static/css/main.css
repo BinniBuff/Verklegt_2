@@ -203,3 +203,43 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+.company-logo {
+    width: 100px;  /* Set a fixed width */
+    height: 100px; /* Maintain the aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.company-container {
+    padding: 10px; /* Adds space inside the container */
+    text-align: center; /* Centers the image horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically */
+    align-items: center; /* Ensure the image is centered horizontally */
+}
+
+.well-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-img {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.company {
+    text-align: center;
+    margin: 20px;
+}
+#company-image{
+    width: 100px;
+    height: 100px;
+
+}

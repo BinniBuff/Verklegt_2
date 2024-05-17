@@ -5,8 +5,8 @@ from django.db import models
 class Company(models.Model):
     name = models.CharField(max_length=255)
     year_of_start = models.DateField()
-    logo = models.ImageField(upload_to='logos/')
-    cover_image = models.ImageField(null=True, blank=True, upload_to='cover_images/')
+    picture = models.ImageField(upload_to='media', default="hekla-logo.png")
+    logo = models.ImageField(upload_to='company_logos/', blank=True, null=True)  # Store logos in media/company_logos/
 
     def __str__(self):
         return self.name

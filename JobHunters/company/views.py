@@ -2,9 +2,22 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
 from company.models import Company
-
 from company.forms.company_form import CompanyForm, CompanyUpdateForm
-# Create your views here.
+from django.shortcuts import render, redirect
+from .forms import company_form
+
+
+
+def add_company(request):
+    if request.method == 'POST':
+        form = CompanyForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return redirect('company-list')
+    else:
+        form = CompanyForm()
+    return render(request, 'company/add_company.html', {'form': form})
+
 def index(request):
     return render(request, 'company/index.html', {
         'companies': Company.objects.all()
