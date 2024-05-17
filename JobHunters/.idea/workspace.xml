@@ -4,176 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Verklegt_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/AUTHORS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/LICENSE.python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Django-5.0.4.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imaging.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imagingcms.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imagingft.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imagingmath.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imagingmorph.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_imagingtk.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/PIL/_webp.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/Pillow-10.0.0.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/asgiref-3.8.1.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip-24.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/cachecontrol/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/certifi/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/chardet/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/distro/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/idna/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/packaging/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/platformdirs/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/pyparsing/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/resolvelib/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/rich/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/tenacity/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/tomli/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/_macos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/_openssl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/_ssl_constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/_windows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/truststore/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/weakref_finalize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg-3.1.18.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_adapters_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_cmodule.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_column.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_connection_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_conninfo_attempts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_conninfo_attempts_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_conninfo_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_dns.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_encodings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_preparing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_queries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_struct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_tpc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_transform.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_typeinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_tz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/_wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/abc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/adapt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/client_cursor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/connection_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/conninfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/crdb/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/crdb/_types.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/crdb/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/cursor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/cursor_async.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/dbapi20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/generators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/postgres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/_debug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/_enums.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/_pq_ctypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/_pq_ctypes.pyi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/abc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/misc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/pq/pq_ctypes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/py.typed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/rows.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/server_cursor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/sql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/bool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/composite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/datetime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/enum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/hstore.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/multirange.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/net.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/none.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/numeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/shapely.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/types/uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg/waiting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/psycopg2/_psycopg.cp312-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/sqlparse-0.5.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions-4.11.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/typing_extensions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Lib/site-packages/tzdata-2024.1.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.venv/Scripts/pip3.12.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/migrations/0007_remove_company_cover_image_alter_company_logo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/migrations/0008_company_picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/migrations/0009_alter_company_picture.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/media/hekla-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/company/add_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobHunters/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/JobHunters/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/Advania_Ísland_ehf_-_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/Advania_Ísland_ehf_-_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/forms/company_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/forms/company_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/hekla-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/hekla-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/logo-lsh.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo-lsh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/company_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/company_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/single_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/update_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/update_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
-    </list>
+    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="hallo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,12 +30,12 @@
     &quot;assignee&quot;: &quot;BinniBuff&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BinniBuff/Verklegt_2.git&quot;,
-    &quot;accountId&quot;: &quot;026b707d-a79e-4fc2-9949-6bfa722f0c04&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BinniBuff/Verklegt_2.git",
+    "accountId": "d8c1c67a-3fe3-4328-99a2-f672959c83a0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -225,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "Merging Nani",
+    "git-widget-placeholder": "#21 on Nani",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -281,6 +112,15 @@
       <workItem from="1715782555107" duration="17288000" />
       <workItem from="1715941806495" duration="2025000" />
     </task>
+    <task id="LOCAL-00001" summary="hallo">
+      <option name="closed" value="true" />
+      <created>1715951570716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715951570716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,5 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="hallo" />
+    <option name="LAST_COMMIT_MESSAGE" value="hallo" />
   </component>
 </project>
