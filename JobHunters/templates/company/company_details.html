@@ -2,14 +2,14 @@
 {% block content %}
     <div class="company-details">
     <h1>{{ company.name }}</h1>
-    <img src="{{ company.hekla-logo.png }}" alt="{{ company.name }} Logo" class="company-logo">
+    <img src="{{ company.picture }}" alt="{{ company.name }} Logo" class="company-logo">
     <p>Started in: {{ company.year_of_start }}</p>
     <!-- other company details -->
 </div>
     <h1>{{ company.name }}</h1>
     <p>{{ company.description }}</p>
     {% if company.logo %}
-    <img src="{{companies.picture.url}}" alt="{{ company.Hekla }} Logo">
+    <img src="{{company.picture}}" alt="{{ company.name }} Logo">
         <h1>WE ARE HERE</h1>
 {% else %}
     <p>No logo available</p>
