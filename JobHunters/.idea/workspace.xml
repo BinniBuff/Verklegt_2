@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="hallo">
-      <change afterPath="$PROJECT_DIR$/media/media/Advania_Ísland_ehf_-_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/media/logo-lsh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/company_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/company_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/single_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,21 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BinniBuff&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BinniBuff"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BinniBuff/Verklegt_2.git&quot;,
-    &quot;accountId&quot;: &quot;d8c1c67a-3fe3-4328-99a2-f672959c83a0&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BinniBuff/Verklegt_2.git",
+    "accountId": "026b707d-a79e-4fc2-9949-6bfa722f0c04"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2gVV68AiKtPp5bZEiaO5Yqd7JbW" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -65,7 +58,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "#21 on Merging Nani",
+    "git-widget-placeholder": "Buffi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,19 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715782553731</updated>
-      <workItem from="1715782555107" duration="17288000" />
-      <workItem from="1715941806495" duration="2025000" />
-      <workItem from="1715952377582" duration="312000" />
+      <workItem from="1715782555107" duration="34613000" />
     </task>
-    <task id="LOCAL-00001" summary="hallo">
-      <option name="closed" value="true" />
-      <created>1715951570716</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1715951570716</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +120,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="hallo" />
-    <option name="LAST_COMMIT_MESSAGE" value="hallo" />
   </component>
 </project>
