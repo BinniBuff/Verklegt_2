@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
 <div class="well-job">
     <a href="/jobs/{{ job.id }}" id="link_to_job">
         <div class="row">
@@ -15,11 +17,10 @@
                 </div>
                 <div class="row">
                     <p>{{ job.name }}</p>
-                    <p> {{ job.company.picture.url }}</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <img src="{{ job.company.picture.url }}" alt="Logo of the company">
+                <img src="{{ job.company.picture.url}}" id ="company-image" alt="Logo of the company">
             </div>
         </div>
         <p>Job offer expires: {{ job.date_expired }}</p>
