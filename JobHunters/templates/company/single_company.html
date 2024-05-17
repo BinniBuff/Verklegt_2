@@ -3,3 +3,15 @@
     <h4>{{ company.name }}</h4>
     <p>Started: {{ company.year_of_start }}</p>
 </div>
+<div class="company">
+    <h4>{{ company.name }}</h4>
+    <img src="{{ company.logo.url }}" alt="{{ company.name }} Logo" class="company-logo" style="width: 100px; height: auto;">
+    <p>Established: {{ company.year_of_start }}</p>
+</div>
+    <h1>Our Companies</h1>
+    <div class="company-list">
+        {% for company in companies %}
+            {% include "company/single_company.html" with company=company %}
+        {% endfor %}
+        
+    </div>
