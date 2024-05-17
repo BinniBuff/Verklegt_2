@@ -5,9 +5,12 @@ from django.contrib.auth.models import User
 from .forms import ProfileForm
 from .models import Profile
 
+
+
+
 def register(request):
     if request.method == 'POST':
-        form = UserCreationForm(request.POST)
+        form = UserCreationForm(data=request.POST)
         if form.is_valid():
             user = form.save()
             Profile.objects.create(user=user)
@@ -43,3 +46,5 @@ def profile(request):
     else:
         form = ProfileForm(instance=profile, user=request.user)
     return render(request, 'user/profile.html', {'profile': profile, 'form': form})
+
+ 
