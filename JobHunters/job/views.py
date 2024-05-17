@@ -89,3 +89,9 @@ def update_job(request, id):
         'form': form,
         'id': id
     })
+
+@login_required
+def user_applications(request):
+    # Assuming there's a model called Application related to the user
+    applications = request.user.application_set.all()
+    return render(request, 'user_applications.html', {'applications': applications})

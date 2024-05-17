@@ -9,8 +9,8 @@ class JobApplication(models.Model):
         ('accepted', 'Accepted'),
     ]
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    job = models.ForeignKey(Job, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='application_user_applications')
+    job = models.ForeignKey(Job, on_delete=models.CASCADE, related_name='application_job_applications')
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='submitted')
 
     # Step 1: Contact Information
@@ -32,3 +32,4 @@ class JobApplication(models.Model):
 
     def __str__(self):
         return f'{self.user.username} - {self.job.title}'
+
