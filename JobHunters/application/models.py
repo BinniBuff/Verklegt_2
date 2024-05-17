@@ -1,34 +1,39 @@
 from django.db import models
+from company.models import Company
 from django.contrib.auth.models import User
-from job.models import Job
+
+class Job(models.Model):
+    title = models.CharField(max_length=255)
+    description = models.TextField()
+    company = models.ForeignKey(Company, on_delete=models.CASCADE, related_name='application_jobs')
+
+    def __str__(self):
+        return self.title
 
 class JobApplication(models.Model):
     STATUS_CHOICES = [
         ('submitted', 'Submitted'),
-        ('denied', 'Denied'),
+        ('reviewed', 'Reviewed'),
+        ('interviewed', 'Interviewed'),
+        ('rejected', 'Rejected'),
         ('accepted', 'Accepted'),
     ]
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    job = models.ForeignKey(Job, on_delete=models.CASCADE)
-    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='submitted')
+    job = models.ForeignKey(Job, on_delete=models.CASCADE, related_name='application_job_applications')
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='application_job_applications')
+    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='submitted')
+    applied_at = models.DateTimeField(auto_now_add=True)
 
-    # Step 1: Contact Information
-    name = models.CharField(max_length=255)
-    street_name = models.CharField(max_length=255)
-    house_number = models.CharField(max_length=10)
-    city = models.CharField(max_length=255)
-    country = models.CharField(max_length=255)
-    postal_code = models.CharField(max_length=10)
-
-    # Step 2: Cover Letter
-    cover_letter = models.TextField()
-
-    # Step 3: Experiences
-    experience = models.JSONField(default=list)
-
-    # Step 4: References
-    references = models.JSONField(default=list)
+    # Add the missing fields with default values
+    name = models.CharField(max_length=255, default='')
+    street_name = models.CharField(max_length=255, default='')
+    house_number = models.CharField(max_length=20, default='')
+    city = models.CharField(max_length=100, default='')
+    country = models.CharField(max_length=100, default='')
+    postal_code = models.CharField(max_length=20, default='')
+    cover_letter = models.TextField(blank=True, default='')
+    experience = models.TextField(blank=True, default='')
+    references = models.TextField(blank=True, default='')
 
     def __str__(self):
-        return f'{self.user.username} - {self.job.title}'
+        return f"{self.user.username} applied for {self.job.title}"

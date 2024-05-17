@@ -5,6 +5,7 @@ from django.db.models import Q
 from job.forms.job_form import JobForm, JobUpdateForm
 from job.models import Job, Category
 from company.models import Company
+from .models import JobApplication
 
 def is_ajax(request):
     return request.headers.get('x-requested-with') == 'XMLHttpRequest'
@@ -89,3 +90,8 @@ def update_job(request, id):
         'form': form,
         'id': id
     })
+
+@login_required
+def user_applications(request):
+    applications = JobApplication.objects.filter(user=request.user).select_related('job')
+    return render(request, 'job/user_applications.html', {'applications': applications})
