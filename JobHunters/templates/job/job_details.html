@@ -5,6 +5,13 @@
     <p>{{ job.description }}</p>
     <p>Job offer expires:{{ job.date_expired }}</p>
 
-    <a href="{% url 'delete-job' job.id %}" class="block btn btn-primary">Delete job offer</a>
-    <a href="{% url 'update-job' job.id %}" class="block btn btn-primary">Update job offer</a>
+    {% if user.is_authenticated %}
+        {% if not job_application %}
+            <a href="{% url 'apply_step_1' job.id %}">Apply Now</a>
+        {% else %}
+            <p>Status: {{ job_application.get_status_display }}</p>
+        {% endif %}
+    {% else %}
+        <a href="{% url 'login' %}?next={% url 'apply_step_1' job.id %}">Log in to apply</a>
+    {% endif %}
 {% endblock %}
