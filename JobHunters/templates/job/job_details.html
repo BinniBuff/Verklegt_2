@@ -1,17 +1,19 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>{{ job.name }}</h1>
-    <h4>{{ job.company.name }}</h4>
-    <p>{{ job.description }}</p>
-    <p>Job offer expires:{{ job.date_expired }}</p>
-
-    {% if user.is_authenticated %}
-        {% if not job_application %}
-            <a href="{% url 'apply_step_1' job.id %}">Apply Now</a>
+    <div class="container" id="main_base">
+        <h1>{{ job.name }}</h1>
+        <h4>{{ job.company.name }}</h4>
+        <p>{{ job.description }}</p>
+        <p>Job offer expires:{{ job.date_expired }}</p>
+    
+        {% if user.is_authenticated %}
+            {% if not job_application %}
+                <a href="{% url 'apply_step_1' job.id %}">Apply Now</a>
+            {% else %}
+                <p>Status: {{ job_application.get_status_display }}</p>
+            {% endif %}
         {% else %}
-            <p>Status: {{ job_application.get_status_display }}</p>
+            <a href="{% url 'login' %}?next={% url 'apply_step_1' job.id %}">Log in to apply</a>
         {% endif %}
-    {% else %}
-        <a href="{% url 'login' %}?next={% url 'apply_step_1' job.id %}">Log in to apply</a>
-    {% endif %}
+    </div>
 {% endblock %}

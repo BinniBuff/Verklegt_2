@@ -1,10 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
-<h2>Step 3: Experiences</h2>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Next</button>
-    <a href="{% url 'apply_step_2' job.id %}">Back</a>
-</form>
+    <div class="sidebar">
+        <a href="{% url 'apply_step_1' job.id %}">Step 1</a>
+        <a href="{% url 'apply_step_2' job.id %}">Step 2</a>
+        <a href="{% url 'apply_step_3' job.id %}">Step 3</a>
+        <a href="{% url 'apply_step_4' job.id %}">Step 4</a>
+    </div>
+    <h2>Step 3: Experiences</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Next</button>
+        <a href="{% url 'apply_step_2' job.id %}">Back</a>
+    </form>
 {% endblock %}

@@ -25,10 +25,10 @@ class JobApplication(models.Model):
     cover_letter = models.TextField()
 
     # Step 3: Experiences
-    experience = models.JSONField()  # Storing as JSON for simplicity
+    experience = models.JSONField(default=list)
 
     # Step 4: References
-    references = models.JSONField()  # Storing as JSON for simplicity
+    references = models.JSONField(default=list)
 
     def __str__(self):
         return f'{self.user.username} - {self.job.title}'
