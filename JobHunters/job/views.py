@@ -2,13 +2,13 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse
 from django.db.models import Q
-
 from job.forms.job_form import JobForm, JobUpdateForm
 from job.models import Job, Category
 from company.models import Company
 
+def is_ajax(request):
+    return request.headers.get('x-requested-with') == 'XMLHttpRequest'
 
-# Create your views here.
 def index(request):
     jobs = Job.objects.all()
 
@@ -27,8 +27,21 @@ def index(request):
     if company_ids:
         jobs = jobs.filter(company__id__in=company_ids)
 
-    order_by = request.GET.get('order_by', 'date_offer')  # Default ordering by date offered
+    order_by = request.GET.get('order_by', 'date_offer')
     jobs = jobs.order_by(order_by)
+
+    if is_ajax(request):
+        jobs_data = [
+            {
+                'id': job.id,
+                'category': job.category.name,
+                'company': job.company.name,
+                'name': job.name,
+                'expires': job.date_expired.strftime('%B %d, %Y'),
+                'full_part_time': job.full_part_time,
+            } for job in jobs
+        ]
+        return JsonResponse({'data': jobs_data})
 
     context = {
         'jobs': jobs,
@@ -36,6 +49,7 @@ def index(request):
         'companies': Company.objects.all()
     }
     return render(request, 'job/index.html', context)
+
 
 def get_job_by_id(request, id):
     return render(request, 'job/job_details.html', {
@@ -65,7 +79,7 @@ def delete_job(request, id):
 def update_job(request, id):
     instance = get_object_or_404(Job, pk=id)
     if request.method == 'POST':
-        form = JobUpdateForm(data=request.POST ,instance=instance)
+        form = JobUpdateForm(data=request.POST, instance=instance)
         if form.is_valid():
             form.save()
             return redirect('get-job', id)

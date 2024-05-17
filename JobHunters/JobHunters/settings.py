@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'job.apps.JobConfig',
     'company.apps.CompanyConfig',
     'user.apps.UserConfig',
-    'django_filters'
+    'django_filters',
+    "application.apps.ApplicationConfig"
 ]
 
 MIDDLEWARE = [
