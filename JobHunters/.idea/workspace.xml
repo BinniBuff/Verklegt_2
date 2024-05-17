@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/application/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/migrations/0002_alter_jobapplication_experience_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/migrations/0007_alter_company_cover_image_alter_company_logo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/job/sidebar_filter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/application/apply_step_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application/apply_step_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/application/apply_step_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application/apply_step_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/application/apply_step_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application/apply_step_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/application/apply_step_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/application/apply_step_4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/job_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/job_details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715782553731</updated>
-      <workItem from="1715782555107" duration="33630000" />
+      <workItem from="1715782555107" duration="34613000" />
     </task>
     <servers />
   </component>
