@@ -11,15 +11,8 @@
 <body>
     {% include 'navigation.html' %}
     <div class="wrapper">
-        <div class="sidebar">
-            {% block sidebar %}
-            {% endblock %}
-        </div>
-        <div class="container" id="main_base">
-            <h1>Welcome to the site</h1>
-            {% block content %}
-            {% endblock %}
-        </div>
+        {% block content %}
+        {% endblock %}
     </div>
     {#Javascript#}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
