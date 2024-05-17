@@ -36,8 +36,10 @@
                 <div class="profile-picture-container">
                     {% if profile.profile_picture %}
                         <img src="{{ profile.profile_picture.url }}" alt="Profile Picture" class="profile-picture">
+                        <p>Debug: {{ profile.profile_picture.url }}</p>
                     {% else %}
                         <img src="{% static 'images/default_profile_picture.png' %}" alt="Default Profile Picture" class="profile-picture">
+                        <p>Debug: No profile picture</p>
                     {% endif %}
                     <div class="form-group">
                         <label for="id_profile_picture">Profile Picture:</label>

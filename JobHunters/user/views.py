@@ -30,6 +30,8 @@ def profile(request):
             user.save()
 
             profile.phone_number = form.cleaned_data['phone_number']
+            if 'profile_picture' in request.FILES:
+                profile.profile_picture = request.FILES['profile_picture']
             profile.save()
 
             if form.cleaned_data['new_password']:
