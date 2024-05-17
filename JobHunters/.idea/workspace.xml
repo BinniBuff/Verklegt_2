@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="hallo">
-      <change afterPath="$PROJECT_DIR$/media/media/Advania_Ísland_ehf_-_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/media/logo-lsh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/company_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/company_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/company/single_company.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/company/single_company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/job/single_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/job/single_job.html" afterDir="false" />
-    </list>
+    <list default="true" id="07c6d15a-2382-47d3-96a8-d99dc901c18d" name="Changes" comment="hallo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +56,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "#21 on Merging Nani",
+    "git-widget-placeholder": "#21 on Nani",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,7 +111,7 @@
       <updated>1715782553731</updated>
       <workItem from="1715782555107" duration="17288000" />
       <workItem from="1715941806495" duration="2025000" />
-      <workItem from="1715952377582" duration="312000" />
+      <workItem from="1715952377582" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="hallo">
       <option name="closed" value="true" />
